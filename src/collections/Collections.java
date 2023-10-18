@@ -14,7 +14,7 @@ public class Collections {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Rectangle[] rectangles = {new Rectangle(2, 3), new Rectangle(4, 1)};
     }
     
 }
