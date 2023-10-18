@@ -81,6 +81,17 @@ public class Collections {
         // {"Hello!"}
         
         HashSet<Integer> numSet = new HashSet<>();
+        for (int num=1; num<=100; num++) {
+            numSet.add(num);
+        }
+        
+        for (int num=1; num<=15; num++) {
+            numSet.remove(num*num);
+        }
+        
+        System.out.println(numSet.contains(100));
+        System.out.println("The remaining set is: " + numSet.size() + " long.");
+        
     }
     
 
